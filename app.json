@@ -25,7 +25,9 @@
       "package": "com.campusverse.app",
       "permissions": [
         "CAMERA",
-        "NOTIFICATIONS"
+        "NOTIFICATIONS",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -47,7 +49,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "68464293-532c-42ea-bac9-5d83b8633192"
       }
     }
   }
